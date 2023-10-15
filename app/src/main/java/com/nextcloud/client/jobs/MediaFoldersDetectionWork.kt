@@ -217,8 +217,8 @@ class MediaFoldersDetectionWork constructor(
             context,
             NotificationUtils.NOTIFICATION_CHANNEL_GENERAL
         )
-            .setSmallIcon(R.drawable.notification_icon)
-            .setLargeIcon(BitmapFactory.decodeResource(context.resources, R.drawable.notification_icon))
+            .setSmallIcon(R.mipmap.rengacloud_square_foreground)
+            .setLargeIcon(BitmapFactory.decodeResource(context.resources, R.mipmap.rengacloud_square_foreground))
             .setSubText(user.accountName)
             .setContentTitle(contentTitle)
             .setContentText(subtitle)

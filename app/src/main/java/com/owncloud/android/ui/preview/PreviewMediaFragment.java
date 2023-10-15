@@ -298,7 +298,7 @@ public class PreviewMediaFragment extends FileFragment implements OnTouchListene
      * Set generic icon (logo) as placeholder for thumbnail in preview.
      */
     private void setGenericThumbnail() {
-        Drawable logo = AppCompatResources.getDrawable(requireContext(), R.drawable.logo);
+        Drawable logo = AppCompatResources.getDrawable(requireContext(), R.mipmap.ic_launcher);
         if (logo != null) {
             if (!getResources().getBoolean(R.bool.is_branded_client)) {
                 // only colour logo of non-branded client

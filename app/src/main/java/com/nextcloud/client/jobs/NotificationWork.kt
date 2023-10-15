@@ -166,8 +166,8 @@ class NotificationWork constructor(
 
         val pushNotificationId = randomId.nextInt()
         val notificationBuilder = NotificationCompat.Builder(context, NotificationUtils.NOTIFICATION_CHANNEL_PUSH)
-            .setSmallIcon(R.drawable.notification_icon)
-            .setLargeIcon(BitmapFactory.decodeResource(context.resources, R.drawable.notification_icon))
+            .setSmallIcon(R.mipmap.rengacloud_square_foreground)
+            .setLargeIcon(BitmapFactory.decodeResource(context.resources, R.mipmap.rengacloud_square_foreground))
             .setShowWhen(true)
             .setSubText(user.accountName)
             .setContentTitle(notification.getSubject())
@@ -224,8 +224,8 @@ class NotificationWork constructor(
         }
         notificationBuilder.setPublicVersion(
             NotificationCompat.Builder(context, NotificationUtils.NOTIFICATION_CHANNEL_PUSH)
-                .setSmallIcon(R.drawable.notification_icon)
-                .setLargeIcon(BitmapFactory.decodeResource(context.resources, R.drawable.notification_icon))
+                .setSmallIcon(R.mipmap.rengacloud_square_foreground)
+                .setLargeIcon(BitmapFactory.decodeResource(context.resources, R.mipmap.rengacloud_square_foreground))
                 .setShowWhen(true)
                 .setSubText(user.accountName)
                 .setContentTitle(context.getString(R.string.new_notification))

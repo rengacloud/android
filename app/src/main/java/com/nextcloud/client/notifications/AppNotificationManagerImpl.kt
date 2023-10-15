@@ -42,11 +42,11 @@ class AppNotificationManagerImpl @Inject constructor(
     }
 
     override fun buildDownloadServiceForegroundNotification(): Notification {
-        val icon = BitmapFactory.decodeResource(resources, R.drawable.notification_icon)
+        val icon = BitmapFactory.decodeResource(resources, R.mipmap.rengacloud_square_foreground)
         return builder(NotificationUtils.NOTIFICATION_CHANNEL_DOWNLOAD)
             .setContentTitle(resources.getString(R.string.app_name))
             .setContentText(resources.getString(R.string.foreground_service_download))
-            .setSmallIcon(R.drawable.notification_icon)
+            .setSmallIcon(R.mipmap.rengacloud_square_foreground)
             .setLargeIcon(icon)
             .build()
     }

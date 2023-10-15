@@ -155,8 +155,8 @@ public class FileDownloader extends Service
         NotificationCompat.Builder builder = NotificationUtils.newNotificationBuilder(this, viewThemeUtils).setContentTitle(
             getApplicationContext().getResources().getString(R.string.app_name))
             .setContentText(getApplicationContext().getResources().getString(R.string.foreground_service_download))
-            .setSmallIcon(R.drawable.notification_icon)
-            .setLargeIcon(BitmapFactory.decodeResource(getResources(), R.drawable.notification_icon));
+            .setSmallIcon(R.mipmap.rengacloud_square_foreground)
+            .setLargeIcon(BitmapFactory.decodeResource(getResources(), R.mipmap.rengacloud_square_foreground));
 
 
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
@@ -546,7 +546,7 @@ public class FileDownloader extends Service
         mLastPercent = 0;
         mNotificationBuilder = NotificationUtils.newNotificationBuilder(this, viewThemeUtils);
         mNotificationBuilder
-            .setSmallIcon(R.drawable.notification_icon)
+            .setSmallIcon(R.mipmap.rengacloud_square_foreground)
             .setTicker(getString(R.string.downloader_download_in_progress_ticker))
             .setContentTitle(getString(R.string.downloader_download_in_progress_ticker))
             .setOngoing(true)

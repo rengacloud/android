@@ -523,7 +523,7 @@ public class FileSyncAdapter extends AbstractOwnCloudSyncAdapter {
      */
     private NotificationCompat.Builder createNotificationBuilder() {
         NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(getContext());
-        notificationBuilder.setSmallIcon(R.drawable.notification_icon).setAutoCancel(true);
+        notificationBuilder.setSmallIcon(R.mipmap.rengacloud_square_foreground).setAutoCancel(true);
         viewThemeUtils.androidx.themeNotificationCompatBuilder(getContext(), notificationBuilder);
         return notificationBuilder;
     }

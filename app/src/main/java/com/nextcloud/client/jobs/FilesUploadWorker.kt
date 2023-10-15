@@ -190,7 +190,7 @@ class FilesUploadWorker(
     private fun createNotification(uploadFileOperation: UploadFileOperation) {
         notificationBuilder
             .setOngoing(true)
-            .setSmallIcon(R.drawable.notification_icon)
+            .setSmallIcon(R.mipmap.rengacloud_square_foreground)
             .setTicker(context.getString(R.string.uploader_upload_in_progress_ticker))
             .setProgress(MAX_PROGRESS, 0, false)
             .setContentText(

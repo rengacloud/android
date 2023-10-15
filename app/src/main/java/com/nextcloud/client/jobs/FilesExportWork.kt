@@ -151,8 +151,8 @@ class FilesExportWork(
             appContext,
             NotificationUtils.NOTIFICATION_CHANNEL_DOWNLOAD
         )
-            .setSmallIcon(R.drawable.notification_icon)
-            .setLargeIcon(BitmapFactory.decodeResource(appContext.resources, R.drawable.notification_icon))
+            .setSmallIcon(R.mipmap.rengacloud_square_foreground)
+            .setLargeIcon(BitmapFactory.decodeResource(appContext.resources, R.mipmap.rengacloud_square_foreground))
             .setSubText(user.accountName)
             .setContentText(message)
             .setAutoCancel(true)

@@ -108,8 +108,8 @@ class GeneratePdfFromImagesWork(
             appContext,
             NotificationUtils.NOTIFICATION_CHANNEL_GENERAL
         )
-            .setSmallIcon(R.drawable.notification_icon)
-            .setLargeIcon(BitmapFactory.decodeResource(appContext.resources, R.drawable.notification_icon))
+            .setSmallIcon(R.mipmap.rengacloud_square_foreground)
+            .setLargeIcon(BitmapFactory.decodeResource(appContext.resources, R.mipmap.rengacloud_square_foreground))
             .setContentText(message)
             .setAutoCancel(true)
 

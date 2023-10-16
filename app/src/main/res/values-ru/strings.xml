@@ -459,7 +459,7 @@
     <string name="log_send_no_mail_app">Приложение для отправки журналов не найдено. Пожалуйста, установите почтовый клиент.</string>
     <string name="logged_in_as">Выполнен вход как %1$s</string>
     <string name="login">Войти</string>
-    <string name="login_url_helper_text">Ссылка для в %1$s через веб-интерфейс для использования в браузере.</string>
+    <string name="login_url_helper_text">Ссылка на %1$s через веб-интерфейс для использования в браузере.</string>
     <string name="logs_menu_delete">Удалить журнал</string>
     <string name="logs_menu_refresh">Обновить</string>
     <string name="logs_menu_search">Искать в журнале</string>

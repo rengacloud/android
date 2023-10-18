@@ -36,7 +36,7 @@
         android:layout_gravity="center"
         android:layout_weight="1"
         android:contentDescription="@string/app_name"
-        android:src="@mipmap/ic_launcher" />
+        android:src="@mipmap/rengacloud_icon_round" />
 
     <ScrollView
         android:layout_width="0dp"

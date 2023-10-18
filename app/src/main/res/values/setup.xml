@@ -51,7 +51,7 @@
     <color name="color_accent">#007cc2</color>
     <color name="login_text_color">#ffffff</color>
     <color name="login_text_hint_color">#7fC0E3</color>-->
-    <color name="primary">#FDFDFD</color>
+    <color name="primary">#FFFFFF</color>
     <color name="primary_dark">#9CA4A8</color>
     <color name="color_accent">#B84C44</color>
     <color name="login_text_color">#323232</color>

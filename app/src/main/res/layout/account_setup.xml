@@ -42,7 +42,7 @@
             android:layout_height="136dp"
             android:layout_marginBottom="@dimen/standard_padding"
             android:contentDescription="@string/app_name"
-            android:src="@mipmap/ic_launcher"
+            android:src="@mipmap/rengacloud_icon_round"
             />
 
         <LinearLayout

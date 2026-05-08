@@ -38,7 +38,7 @@
             android:layout_width="match_parent"
             android:layout_height="66dp"
             android:contentDescription="@null"
-            android:src="@mipmap/ic_launcher" />
+            android:src="@mipmap/rengacloud_icon_round" />
 
         <TextView
             android:id="@+id/loginInfo"

@@ -88,7 +88,7 @@
         android:allowBackup="false"
         android:fullBackupContent="@xml/backup_config"
         android:dataExtractionRules="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/rengacloud_icon_round"
         android:installLocation="internalOnly"
         android:label="@string/app_name"
         android:manageSpaceActivity="com.owncloud.android.ui.activity.ManageSpaceActivity"

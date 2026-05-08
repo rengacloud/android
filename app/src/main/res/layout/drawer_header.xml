@@ -44,7 +44,7 @@
             android:contentDescription="@null"
             android:maxWidth="96dp"
             android:scaleType="fitCenter"
-            android:src="@mipmap/ic_launcher" />
+            android:src="@mipmap/rengacloud_icon_round" />
 
         <TextView
             android:id="@+id/drawer_header_server_name"
@@ -60,7 +60,7 @@
             android:textStyle="bold"
             android:visibility="gone"
             tools:ignore="RtlHardcoded"
-            tools:text="Nextcloud" />
+            tools:text="Rengacloud" />
 
     </LinearLayout>
 

@@ -282,7 +282,7 @@ public class SaveCalendar {
         final int cancel = android.R.string.cancel;
         final int suggest = R.string.suggest;
         AlertDialog.Builder builder = new AlertDialog.Builder(activity);
-        AlertDialog dlg = builder.setIcon(R.mipmap.ic_launcher)
+        AlertDialog dlg = builder.setIcon(R.mipmap.rengacloud_icon_round)
             .setTitle(R.string.enter_destination_filename)
             .setView(input)
             .setPositiveButton(ok, new DialogInterface.OnClickListener() {

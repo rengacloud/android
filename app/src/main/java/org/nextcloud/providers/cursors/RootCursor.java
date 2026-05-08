@@ -57,7 +57,7 @@ public class RootCursor extends MatrixCursor {
             .add(Root.COLUMN_DOCUMENT_ID, document.getDocumentId())
             .add(Root.COLUMN_SUMMARY, user.getAccountName())
             .add(Root.COLUMN_TITLE, context.getString(R.string.app_name))
-            .add(Root.COLUMN_ICON, R.mipmap.ic_launcher)
+            .add(Root.COLUMN_ICON, R.mipmap.rengacloud_icon_round)
             .add(Root.COLUMN_FLAGS, rootFlags);
     }
 }
